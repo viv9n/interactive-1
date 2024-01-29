@@ -1,0 +1,119 @@
+mumbai
+ - india
+ - hot
+ - humid
+ - coast
+ - beach
+ - traffic
+ - culture
+ - home
+ - crowds
+ - sweat
+
+brother
+ - family
+ - responsibility
+ - idolation
+ - leading
+ - insufficient
+ - competition
+ - attention
+ - camaraderie
+ - opposition
+ - pride
+
+swimming
+ - athlete
+ - water
+ - pool
+ - sea
+ - rubber
+ - goggles
+ - dolphin
+ - freedom
+ - cold
+ - sport
+
+strawberry
+ - fruit
+ - sweet
+ - juicy
+ - refreshing
+ - red
+ - tangy
+ - cream
+ - london
+ - ice-cream
+ - grandmother
+
+illustration
+ - tablet
+ - sketch
+ - pencils
+ - eraser
+ - markers
+ - watercolour
+ - friends
+ - commission
+ - perspective
+ - anatomy
+
+books
+ - superhero
+ - fantasy
+ - fiction
+ - adventure
+ - psychology
+ - comics
+ - essay
+ - poem
+ - stageplay
+ - nostalgia
+
+music
+ - hip-hop
+ - rap
+ - indie
+ - underground
+ - cloud rap
+ - hyperpop
+ - pop
+ - alternative
+ - R&B
+ - ambient
+
+travel
+ - london
+ - singapore
+ - dubai
+ - paris
+ - amsterdam
+ - bhutan
+ - los angeles
+ - san francisco
+ - berlin
+ - lucerne
+
+food
+ - shrimp sushi
+ - curry ramen
+ - pepperoni pizza
+ - beef burrito
+ - beef quesadilla
+ - strawberry shortcake
+ - chocolate ice-cream
+ - caramel custard
+ - lamb ragu fettucine
+ - pan-seared salmon
+
+social work
+ - hospital volunteer
+ - beach cleanup
+ - food drive
+ - anti-smoking
+ - abortion
+ - gay rights
+ - trans rights
+ - park cleanup
+ - homeless shelter
+ - vaccination centre
