@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 30px;
+	line-height: 0px;
+}
+
+ul {
+	line-height: 2;
+	font-family: Roboto, sans-serif;
+	font-weight: lighter;
+	margin-top: 60px;
+	font-size: 35px;
+	text-align: center;
+	list-style-type: none;
+	padding:0;
+}
+
+a {
+	transition: 0.3s;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-family: 'Alte Haas Grotesk';
+	font-size: 45px;
+	letter-spacing: 5px;
+	color: rebeccapurple;
+}
+
+/*May*/
+
+div {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.may div.wrapper {
+	background-color:#57a45e;
+	overflow: hidden;
+}
+
+.may div.first {
+	color: #feffed;
+	margin: 0px auto;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 10vh;
+	line-height: .85;
+}
+
+.may div.second {
+	border-top: 5px;
+	border-top-style: solid;
+	border-top-color: #feffed;
+	padding-top: 25px;
+	width: 33.33vw;
+	color: #feffed;
+	text-align: center;
+	font-size: 10vh;
+	line-height: .85;
+	margin: 45px 100px;
+	padding-bottom: 150px;
+	display: inline-block;
+}
+
+.may div.third {
+	color: #0e2d1b;
+	padding-top: 4vh;
+	padding-left: 5vw;
+	text-align: left;
+	font-weight: bolder;
+	line-height: 1.1;
+	font-size: 0.8vh;
+	display: inline-block;
+}
+
+.may p.small {
+	padding-top: 60px;
+	font-size: 0.4vh;
+}
+
+.may div.fourth {
+	color: #0e2d1b;
+	padding-top: 4vh;
+	text-align: left;
+	font-weight: bolder;
+	line-height: 1.1;
+	font-size: 0.8vh;
+	display: inline-block;
+}
+
+.may p.fifth {
+	padding-top: 30px;
+	font-size: 0.4vh;
+}
+
+/*January*/
+
+.poster2 .col {
+  float: left; 
+
+  width: 16.66vw; 
+  
+  height: 25vw;
+
+  text-align: center;
+  font-size: 18vw;
+  color: #658f9f;
+  line-height: 25vw;
+  background: #8a2341;
+}
+
+.poster2 .row {
+  clear: left;
+}
+
+.poster2 p {
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  color: white;
+  text-align: right;
+}
+
+.poster2 .para-left {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  left: 49.98vw; /* .col width * 3 */
+  top: 110vw;     /* .col height * 3 */
+}
+.poster2 .para-right {
+  /* overlayed, but still aligns to the grid */ 
+  position: absolute;
+  left: 66.64vw; /* .col width * 4 */
+  top: 75vw;    /* .col height * 3 */
+}
