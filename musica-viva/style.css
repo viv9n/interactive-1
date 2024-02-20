@@ -15,7 +15,7 @@ h2 {
 	font-family: Helvetica;
 	text-align: center;
 	font-size: 30px;
-	line-height: 0px;
+	line-height: 1;
 }
 
 ul {
@@ -72,12 +72,12 @@ div {
 	text-align: center;
 	font-size: 10vh;
 	line-height: .85;
-	margin: 45px 100px;
 	padding-bottom: 150px;
 	display: inline-block;
 }
 
 .may div.third {
+	width: 28vw;
 	color: #0e2d1b;
 	padding-top: 4vh;
 	padding-left: 5vw;
@@ -94,6 +94,8 @@ div {
 }
 
 .may div.fourth {
+	width: 25vw;
+	padding-left: 7vw;
 	color: #0e2d1b;
 	padding-top: 4vh;
 	text-align: left;
@@ -129,22 +131,133 @@ div {
 }
 
 .poster2 p {
-  font-size: 18px;
-  line-height: 1;
+  line-height: 1.3;
   margin: 0;
   color: white;
+}
+
+.poster2 p.smooll{
+	line-height: 1.3;
+  margin: 0;
+  color: white;
+  font-size: 0.8vw;
+  position: absolute;
+  left: 56vw;
+  top: 138vw;
   text-align: right;
 }
 
-.poster2 .para-left {
-  /* overlayed, but still aligns to the grid */ 
+.poster2 p.smoolr{
+	line-height: 1.3;
+  margin: 0;
+  color: white;
+  font-size: 0.8vw;
   position: absolute;
-  left: 49.98vw; /* .col width * 3 */
-  top: 110vw;     /* .col height * 3 */
+  left: 66.64vw;
+  top: 138vw;
+  text-align: left;
 }
-.poster2 .para-right {
-  /* overlayed, but still aligns to the grid */ 
+
+.poster2 .para-left {
+  font-size: 1.3vw;
   position: absolute;
-  left: 66.64vw; /* .col width * 4 */
-  top: 75vw;    /* .col height * 3 */
+  left: 52vw;
+  top: 110vw;
+  text-align: right;
+}
+
+.poster2 .para-right {
+  font-size: 1.3vw;
+  position: absolute;
+  left: 66.64vw;
+  top: 110vw;
+  text-align: left;
+}
+
+/*December*/
+
+.december div.coll {
+	width: 25vw;
+	padding-left: 3vw;
+	font-weight: 500;
+	font-size: 4.5vw;
+	background-color: #f8f7f3;
+	position: absolute;
+}
+
+.december p.black1 {
+	text-align: right;
+	color: #22211d;
+}
+
+.december p.blue1 {
+	text-align: right;
+	color: #2e92d0;
+}
+
+.december p.blue2 {
+	color: #2e92d0;
+}
+
+.december p.yellow1 {
+	text-align: right;
+	color: #dcab32;
+}
+
+.december div.collm {
+	width: 58vw;
+	position: absolute;
+	left: 28vw;
+	padding-left: 2vw;
+	font-weight: 500;
+	font-size: 4.5vw;
+	background-color: #f8f7f3;
+}
+
+.december p.blue3 {
+	color: #2e92d0;
+}
+
+.december p.yellow2 {
+	color: #dcab32;
+}
+
+.december div.colrm {
+	position: absolute;
+	left: 46vw;
+	font-weight: 500;
+	font-size: 4.5vw;
+}
+
+.december p.orange1 {
+	text-align: right;
+	color: #e65e20;
+}
+
+.december p.green1 {
+	text-align: right;
+	color: #4fa963;
+}
+
+.december div.colr {
+	position: absolute;
+	padding-right: 4vw;
+	left: 75vw;
+	font-weight: 500;
+	font-size: 4.5vw;
+	background-color: #f8f7f3;
+}
+
+.december p.orange2 {
+	color: #e65e20;
+}
+
+.december p.orange3 {
+	color: #e65e20;
+	text-align: right;
+}
+
+.december p.green2 {
+	text-align: right;
+	color: #4fa963;
 }
