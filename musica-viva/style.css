@@ -261,3 +261,108 @@ div {
 	text-align: right;
 	color: #4fa963;
 }
+
+.december div.smallcoll {
+	position: absolute;
+	top: 9vh;
+	left: 65vw;
+	text-align: right;
+}
+
+.december div.smallcolr {
+	position: absolute;
+	top: 9vh;
+	left: 76vw;
+	text-align: left;
+}
+
+/*November*/
+
+.november div.coll {
+	position: absolute;
+	background-color: #dadbd6;
+	width: 100vw;
+	font-weight: 500;
+	font-size: 4.5vw;
+	padding-top: 1vh;
+	padding-left: 1vw;
+}
+
+.november p.bold {
+	font-weight: bolder;
+}
+
+.november div.colm {
+	position: absolute;
+	left: 50vw;
+	top: 47vh;
+	font-weight: 500;
+	line-height: 1.4vw;
+	font-size: 1.5vw;
+	padding-left: 1vw;
+	z-index: 1;
+}
+
+.november div.colr {
+	position: absolute;
+	left: 67vw;
+	top: 47vh;
+	font-weight: 500;
+	line-height: 1.4vw;
+	font-size: 1.5vw;
+	padding-left: 1vw;
+	z-index: 1;
+}
+
+.november div.scol {
+	width: 90px;
+	position: absolute;
+	left: 51vw;
+	padding-top: 13vh;
+}
+
+.november div.scol div.grey{
+	background-color: #918a8a;
+	height: 90px;
+}
+
+.november div.scol div.red{
+	background-color: #cc0031;
+	height: 90px;
+}
+
+.november div.blue{
+	position: absolute;
+	top: 23.5vh;
+	left: 22vw;
+	height: 90px;
+	background-color: #21528f;
+	width: 90px;
+}
+
+.november div.black1{
+	position: absolute;
+	top: 23.5vh;
+	left: 31vw;
+	height: 90px;
+	background-color: black;
+	width: 90px;
+}
+
+.november div.black2{
+	position: absolute;
+	top: 23.5vh;
+	left: 67vw;
+	height: 90px;
+	background-color: black;
+	width: 90px;
+}
+
+.november div.yellow{
+	position: absolute;
+	top: 23.5vh;
+	left: 88vw;
+	height: 90px;
+	background-color: #d7b21f;
+	width: 90px;
+}
