@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://use.typekit.net/iej4ejq.css");
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.cooper-black-std {
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cooper-black-italic {
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.flex {
+	display:flex;
+}
+
+.ball {
+	position: fixed;
+	width: 35vw;
+	height: 35vw;
+	background-color: #FFE27B;
+	border-radius:100vw;
+	margin-left: 60vw;
+	margin-top: 7vh;
+	transition: all 0.5s;
+	background-image: none;
+	background-size: 35vw;
+	filter: drop-shadow(0 0 5rem white);
+}
+
+h1 {
+	font-size: 25vw;
+	line-height: 0.75;
+	letter-spacing: -4px;
+	margin-left: 2vw;
+	margin-top: 1vw;
+	position: absolute;
+}
+
+.imgur {
+	position: absolute;
+	margin-top: -14px;
+	margin-left: 13vw;
+	width: 45vw;
+}
+
+.section-one {
+	width: 100vw;
+	background: rgb(255,154,1);
+  background: linear-gradient(180deg, rgba(255,154,1,1) 0%, rgba(255,213,150,1) 100%);
+}
+
+.section-two {
+	padding-top: 80px;
+	width: 100vw;
+	background: rgb(255,213,150,1);
+  background: linear-gradient(180deg, rgba(255,213,150,1) 0%, rgba(255,154,1,1) 100%);
+}
+
+.imgur2 {
+	margin-top: 80vh;
+	margin-left: -13px;
+	width: 60vw;
+}
+
+.imgur3 {
+	width: 90vw;
+	position: absolute;
+	margin-left: -60vw;
+	margin-top: 101vh;
+}
+
+.para {
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 20px;
+	border-radius: 20px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.bio {
+	padding-top: 15vh;
+	margin-left: 10vw;
+	width: 600px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h2 {
+	font-size: 15vw;
+	line-height: 0.8;
+	margin-left: 8vw;
+}
+
+h3 {
+	font-size: 10vw;
+	line-height: 0.8;
+	margin-left: 55vw;
+}
+
+.smaller-heading {
+	font-size: 7vw;
+	line-height: 0.8;
+	margin-left: 56vw;
+}
+
+h4 {
+	margin-left: 5vw;
+	margin-top: 20vh;
+	font-size: 7vw;
+	line-height: 0.8;
+}
+
+.early-life{
+	display: flex;
+}
+
+.early-life > p {
+	margin-top: 6vh;
+	margin-left: 10vw;
+	width: 557px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.imgur5 {
+	position: absolute;
+	width: 90vw;
+	margin-left: 5vw;
+	margin-top: 30vh;
+	opacity: 0.3;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 140vh;
+}
+
+.imgur4 {
+	width: 100vw;
+  position: absolute;
+  z-index: 1;
+  left: -100vw;
+  transition: 1s;
+}
+
+.wrapper:hover .imgur4 {
+  transition: 1s;
+  left: 0;
+}
+
+.early-life > p {
+	margin-top: 6vh;
+	margin-left: 10vw;
+	width: 557px;
+}
+
+.para2 {
+	width: 550px;
+	margin-left: 56vw;
+}
+
+.para3 {
+	margin-left: 0;
+	min-height: 300px;
+	transition: 0.5s;
+}
+
+.para3:hover {
+	margin-left: -900vw;
+	transition: 0.5s;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 40px;
+	row-gap: 80px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.imgur6 {
+	position: absolute;
+	height: 545px;
+	margin-left: 5vw;
+}
+
+.imgur7 {
+	position: absolute;
+	height: 545px;
+	margin-left: 29vw;
+}
+
+.imgur8 {
+	margin-left: 38vw;
+	margin-top: -10vh;
+	position: absolute;
+	width: 55vw;
+	mix-blend-mode: multiply;
+}
+
+.imgur9 {
+	margin-top: -15vh;
+	position: absolute;
+	width: 95vw;
+}
+
+.p-img-one {
+	background-image: none;
+}
+
+.p-img-one:hover {
+	background-image: url(https://i.imgur.com/URQj3g8.png);
+	background-size: 230px;
+}
+
+.p-img-two {
+	background-image: none;
+}
+
+.p-img-two:hover {
+	background-image: url(https://i.imgur.com/AdvhD8j.png);
+	background-size: 325px;
+}
+
+.p-img-three {
+	background-image: none;
+}
+
+.p-img-three:hover {
+	background-image: url(https://i.imgur.com/wGyCjwI.png);
+	background-size: 395px;
+}
+
+.p-img-four {
+	background-image: none;
+}
+
+.p-img-four:hover {
+	background-image: url(https://i.imgur.com/gTmk4Zl.png);
+	background-size: 305px;
+}
+
+.p-img-five {
+	background-image: none;
+}
+
+.p-img-five:hover {
+	background-image: url(https://i.imgur.com/RIdDiWK.png);
+	background-size: 310px;
+}
+
+.p-img-six {
+	background-image: none;
+}
+
+.p-img-six:hover {
+	background-image: url(https://i.imgur.com/KEJJMXZ.jpeg);
+	background-size: 245px;
+}
+
+
+.p-img-seven {
+	background-image: none;
+}
+
+.p-img-seven:hover {
+	background-image: url(https://i.imgur.com/ndj4Cpj.png);
+	background-size: 310px;
+}
+
+ .p-img-eight {
+	background-image: none;
+}
+
+.p-img-eight:hover {
+	background-image: url(https://i.imgur.com/tKKRZym.jpeg);
+	background-size: 480px;
+}
+
+ .p-img-nine {
+	background-image: none;
+}
+
+.p-img-nine:hover {
+	background-image: url(https://i.imgur.com/96hMfyX.png);
+	background-size: 680px;
+}
+
+.p-img-ten {
+	background-image: none;
+}
+
+.p-img-ten:hover {
+	background-image: url(https://i.imgur.com/hxDAKRg.png);
+	background-size: 340px;
+}
+
+.p-img-eleven {
+	background-image: none;
+}
+
+.p-img-eleven:hover {
+	background-image: url(https://i.imgur.com/mRPCEaA.png);
+	background-size: 590px;
+}
+
+.p-img-twelve {
+	background-image: none;
+}
+
+.p-img-twelve:hover {
+	background-image: url(https://i.imgur.com/0GMt0Wc.png);
+	background-size: 560px;
+}
+
+.p-img-thirteen {
+	background-image: none;
+}
+
+.p-img-thirteen:hover {
+	background-image: url(https://i.imgur.com/FDwWr7W.png);
+	background-size: 240px;
+}
+
+.p-img-fourteen {
+	background-image: none;
+}
+
+.p-img-fourteen:hover {
+	background-image: url(https://i.imgur.com/po1DIqg.png);
+	background-size: 220px;
+}
+
+.p-img-fifteen {
+	background-image: none;
+}
+
+.p-img-fifteen:hover {
+	background-image: url(https://i.imgur.com/89lWqv8.png);
+	background-size: 520px;
+}
+
+.p-img-sixteen {
+	background-image: none;
+}
+
+.p-img-sixteen:hover {
+	background-image: url(https://i.imgur.com/GqAwjlu.png);
+	background-size: 490px;
+}
+
+.p-img-seventeen {
+	background-image: none;
+}
+
+.p-img-seventeen:hover {
+	background-image: url(https://i.imgur.com/xoL96Vr.png);
+	background-size: 680px;
+}
+
+.p-img-eighteen {
+	background-image: none;
+}
+
+.p-img-eighteen:hover {
+	background-image: url(https://i.imgur.com/fGRPKu4.png);
+	background-size: 425px;
+}
+
+.p-img-ninteen {
+	background-image: none;
+}
+
+.p-img-nineteen:hover {
+	background-image: url(https://i.imgur.com/wZOAcML.png);
+	background-size: 230px;
+}
+
+.p-img-twenty {
+	background-image: none;
+}
+
+.p-img-twenty:hover {
+	background-image: url(https://i.imgur.com/ggSMttM.png);
+	background-size: 250px;
+}
+
+.p-img-twenty-one {
+	background-image: none;
+}
+
+.p-img-twenty-one:hover {
+	background-image: url(https://i.imgur.com/8i6eE64.png);
+	background-size: 650px;
+}
+
+.p-img-twenty-two {
+	background-image: none;
+}
+
+.p-img-twenty-two:hover {
+	background-image: url(https://i.imgur.com/rkgUCk1.png);
+	background-size: 300px;
+}
+
+.p-img-twenty-three {
+	background-image: none;
+}
+
+.p-img-twenty-three:hover {
+	background-image: url(https://i.imgur.com/jgpPcnX.jpeg);
+	background-size: 250px;
+}
+
+.p-img-twenty-four {
+	background-image: none;
+}
+
+.p-img-twenty-four:hover {
+	background-image: url(https://i.imgur.com/mlK699i.png);
+	background-size: 220px;
+}
+
+.p-img-twenty-five {
+	background-image: none;
+}
+
+.p-img-twenty-five:hover {
+	background-image: url(https://i.imgur.com/1KVLBmg.png);
+	background-size: 650px;
+}
+
+.p-img-twenty-six {
+	background-image: none;
+}
+
+.p-img-twenty-six:hover {
+	background-image: url(https://i.imgur.com/cDZiqJw.png);
+	background-size: 450px;
+}
+
+.p-img-twenty-seven {
+	background-image: none;
+}
+
+.p-img-twenty-seven:hover {
+	background-image: url(https://i.imgur.com/lu2rtBs.png);
+	background-size: 600px;
+}
+
+.p-img-twenty-eight {
+	background-image: none;
+}
+
+.p-img-twenty-eight:hover {
+	background-image: url(https://i.imgur.com/Gin2YLI.png);
+	background-size: 350px;
+}
+
+.p-img-twenty-nine {
+	background-image: none;
+}
+
+.p-img-twenty-nine:hover {
+	background-image: url(https://i.imgur.com/yrw0T1Z.png);
+	background-size: 520px;
+}
+
+.p-img-thirty {
+	background-image: none;
+}
+
+.p-img-thirty:hover {
+	background-image: url(https://i.imgur.com/q8cznqM.png);
+	background-size: 450px;
+}
