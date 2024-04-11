@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.backgroundc {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffcb9f;
+}
+
+.center {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background-color: #c32626;
+  position: absolute;
+  z-index: 1;
+  top: 30vh;
+  left: 38vw;
+}
+
+.sechand {
+  width: 0;
+  height: 0;
+  border-right: 90px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-left: 250px solid #6d0d07;
+  position: absolute;
+  z-index: 2;
+  top: 30vh;
+  left: 49.5vw;
+  transform-origin: 0% 100%;
+}
+
+.minhand {
+  width: 0;
+  height: 0;
+  border-right: 90px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-left: 120px solid #ffa800;
+  position: absolute;
+  z-index: 3;
+  top: 30vh;
+  left: 49.5vw;
+  transform-origin: 0% 100%;
+}
+
+.squareone {
+  background-color: #ff6157;
+  margin-left: 35.8vw;
+  width: 50vh;
+  height: 50vh;
+  transition: all 0.5s;
+}
+
+.squaretwo {
+  overflow: hidden;
+  background-color: #ff6157;
+  margin-left: 35.8vw;
+  width: 50vh;
+  height: 50vh;
+  transition: all 0.5s;
+}
+
+.squarethree {
+  position: absolute;
+  z-index: 0;
+  background-color: #ff6157;
+  margin-top: 25vh;
+  width: 50vh;
+  height: 50vh;
+  transition: all 0.5s;
+}
+
+.squarefour {
+  position: absolute;
+  z-index: 0;
+  background-color: #ff6157;
+  margin-top: 25vh;
+  margin-left: 72vw;
+  width: 90vh;
+  height: 50vh;
+  transition: all 0.5s;
+}
+
+.diamondone {
+  margin-left: 8vw;
+  margin-top: 12.5vh;
+  rotate: 45deg;
+  position: absolute;
+  background-color: #6d0d07;
+  height: 25vh;
+  width: 25vh;
+  transition: all 0.5s;
+}
+
+.diamondtwo {
+  margin-left: 78vw;
+  margin-top: 12.5vh;
+  rotate: 45deg;
+  position: absolute;
+  background-color: #6d0d07;
+  height: 25vh;
+  width: 25vh;
+  transition: all 0.5s;
+}
+
+.diamondthree {
+  margin-left: 8vw;
+  margin-top: 62.5vh;
+  rotate: 45deg;
+  position: absolute;
+  background-color: #6d0d07;
+  height: 25vh;
+  width: 25vh;
+  transition: all 0.5s;
+}
+
+.diamondfour {
+  margin-left: 78vw;
+  margin-top: 62.5vh;
+  rotate: 45deg;
+  position: absolute;
+  background-color: #6d0d07;
+  height: 25vh;
+  width: 25vh;
+  transition: all 0.5s;
+}

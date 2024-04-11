@@ -1,0 +1,16 @@
+body {
+  background-color: #e7e7e7;
+}
+.rect {
+  font-family: Helvetica;
+  color: white;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  margin: 10px;
+}
+
+.clear {
+  clear: both;
+}
