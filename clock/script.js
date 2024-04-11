@@ -1,3 +1,8 @@
+let i = 1;
+let j = 1;
+let k = 1;
+let l = 1;
+
 function updateTime() {
   let d = new Date();
 
@@ -88,7 +93,8 @@ function updateDiamondOne() {
   let d = new Date();
   let sec = d.getSeconds();
   if (sec === 15 || sec === 0 || sec === 30 || sec === 45) {
-    document.querySelector(".diamondone").style.transform = "rotate(180deg)";
+    document.querySelector(".diamondone").style.transform = "rotate(" + 180 * i + "deg)";
+    i++;
 }
 }
 
@@ -98,7 +104,8 @@ function updateDiamondTwo() {
   let d = new Date();
   let sec = d.getSeconds();
   if (sec === 15 || sec === 0 || sec === 30 || sec === 45) {
-    document.querySelector(".diamondtwo").style.transform = "rotate(180deg)";
+    document.querySelector(".diamondtwo").style.transform = "rotate(" + 180 * j + "deg)";
+    j++;
 }
 }
 
@@ -108,7 +115,8 @@ function updateDiamondThree() {
   let d = new Date();
   let sec = d.getSeconds();
   if (sec === 15 || sec === 0 || sec === 30 || sec === 45) {
-    document.querySelector(".diamondthree").style.transform = "rotate(180deg)";
+    document.querySelector(".diamondthree").style.transform = "rotate(" + 180 * k + "deg)";
+    k++;
 }
 }
 
@@ -118,7 +126,8 @@ function updateDiamondFour() {
   let d = new Date();
   let sec = d.getSeconds();
   if (sec === 15 || sec === 0 || sec === 30 || sec === 45) {
-    document.querySelector(".diamondfour").style.transform = "rotate(180deg)";
+    document.querySelector(".diamondfour").style.transform = "rotate(" + 180 * l + "deg)";
+    l++;
 }
 }
 
