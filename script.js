@@ -160,7 +160,11 @@ function moveCharacter(deltaX, deltaY, direction) {
       } else if (positionY == 56) {
         positionY += 1;
       }
-    } 
+    }
+
+  if (positionY >= 254) {
+    positionY -= 1;
+  }
 
   if (positionX + deltaX > 0 && positionX + SCALED_WIDTH + deltaX < canvas.width) {
     positionX += deltaX;
@@ -216,3 +220,9 @@ function moveCharacter(deltaX, deltaY, direction) {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   }
 }
+
+let vid = document.getElementById("intro");
+vid.onended = function() {
+  document.getElementById("intro").style.display="none"
+
+};

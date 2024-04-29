@@ -53,6 +53,11 @@ canvas {
   background-image: url(https://i.imgur.com/uTqxDiH.jpeg);
 }
 
+ video {
+  position: absolute;
+  z-index: 4;
+ }
+
 a img.hover {
     display: none;
 }
